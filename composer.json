@@ -1,0 +1,15 @@
+{
+    "name": "arcbjorn/log-analyzer",
+    "description": "Intelligent log file analyzer with pattern detection and anomaly alerts",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "monolog/monolog": "^2.0",
+        "kassner/log-parser": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arcbjorn\\LogAnalyzer\\": "src/"
+        }
+    }
+}
